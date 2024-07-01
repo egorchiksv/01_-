@@ -1,0 +1,8 @@
+1	array = [2, 5, 13, 7, 6, 4]
+2	i = 0
+3	ArM = 0
+4	while (i < 6) do
+5		ArM = ArM + array[i]
+6		i = i + 1
+7	ArM = ArM / i
+8	print ("Среднее арифмитическое равно ", ArM)
